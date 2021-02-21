@@ -1,0 +1,25 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 50px;
+}
+
+.Section {
+  margin: 0 auto 20px;
+  max-width: 500px;
+  background-color: rgb(220, 248, 226);
+  border-radius: 10px;
+  padding: 0 30px 30px;
+}
+
+.Title-anime-appear {
+  opacity: 0.1;
+  transform: translateY(-100%);
+}
+
+.Title-anime-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 500ms linear;
+}

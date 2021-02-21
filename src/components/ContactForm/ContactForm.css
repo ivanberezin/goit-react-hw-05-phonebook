@@ -1,0 +1,36 @@
+.buttonForm {
+  margin-top: 20px;
+}
+
+.Alert-wrp {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: crimson;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+.Alert-anime-enter {
+  opacity: 0.1;
+  transform: translateX(100%);
+}
+
+.Alert-anime-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms linear;
+}
+
+.Alert-anime-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.Alert-anime-exit-active {
+  opacity: 0.1;
+  transform: translateX(100%);
+  transition: all 500ms linear;
+}
